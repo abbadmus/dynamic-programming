@@ -7,8 +7,6 @@ const fib1 = (n) => {
 console.log(fib1(50));
 
 
-console.log(a(10));
-
 const fib2 = (n, meno = {}) => {
   if (n in meno) return meno[n];
   if (n <= 2) return 1;
@@ -16,4 +14,4 @@ const fib2 = (n, meno = {}) => {
   return meno[n];
 };
 
-console.log(fib1(60));
+console.log(fib2(60));
